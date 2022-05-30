@@ -214,29 +214,38 @@
 
                     <form action="a" method="post" value>
                         <h1 style="text-align:center">Find Your Course</h1>
-                        <div>
+                        <div class="d-flex">
 
+
+                            <div class="fontuser">
+                                <i class="fas fa-user"></i>
+                                <input type="text" name="username" placeholder="Name "></input>
+                            </div>
+                            <div class="fontuser">
+                                <i class="fas fa-envelope"></i>
+                                <input type="text" name="email" placeholder="E-mail"></input>
+                            </div>
                         </div>
-                        <span><i class="fas fa-user"></i></span>
-                        <input type="text" name="username" placeholder="Name "></input>
-                        <span><i class="fas fa-envelope"></i></span>
-                        <input type="text" name="email" placeholder="E-mail"></input>
-                        <br>
 
-                        <i class="fas fa-graduation-cap"></i>
-                        <select name="" id="english">
+                        <div class="fontuser">
+                            <i class="fas fa-graduation-cap"></i>
+                            <select name="" id="english">
                            
-                            <optgroup label="">
-                                <option value="english"></i>English</option>
-                                <option value="french">French</option>
-                                <option value="spanish">Spanish</option>
-                                <option value="german">German</option>s                                
-                            </optgroup>
-                            
-                        </select>
-                        <br>
-                        <i class="fas fa-comment-alt"></i>
-                        <textarea id="" placeholder="Message" cols="45" rows="5"></textarea>
+                                <optgroup label="">
+                                    <option value="english"></i>English</option>
+                                    <option value="french">French</option>
+                                    <option value="spanish">Spanish</option>
+                                    <option value="german">German</option>s                                
+                                </optgroup>
+                                
+                            </select>
+                        </div>
+                        <div class="fontuser">
+                            <i class="fas fa-comment-alt text"></i>
+                            <textarea id="" placeholder="Message" cols="50" rows="5"></textarea>
+                        </div>
+
+
                         <button>SEND</button>
 
 

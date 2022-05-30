@@ -44,7 +44,7 @@
             @include styleText($fs-2,
             $color-white-1,
             $fw-2);
-            border: 1px solid $color-white-1;
+            border: $w-4 solid $color-white-1;
             transform: scaleX(1);
         }
     }

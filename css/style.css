@@ -63,6 +63,15 @@ header .navbar-nav .nav-logo .btn {
   font-size: 1rem;
   color: #fff !important;
   font-weight: 600;
+  transition: all 0.5s;
+}
+
+header .navbar-nav .nav-logo .btn:hover {
+  background-color: #fff !important;
+  font-size: 1rem;
+  color: #b61984 !important;
+  font-weight: 600;
+  border: 1px solid #b61984;
 }
 
 header .navbar-nav .nav-logo a {
@@ -112,7 +121,7 @@ header .navbar-nav .nav-logo a {
   border-radius: 15px;
   margin: 20px 0;
   border: none;
-  transition: all 0.2s;
+  transition: all 0.5s;
 }
 
 .products .products__content1 .teacher:hover {
@@ -184,27 +193,29 @@ header .navbar-nav .nav-logo a {
 .contact .contact__form form input {
   margin-top: 20px;
   margin-bottom: 12px;
-  padding: 10px;
+  padding: 10px 10px 10px 35px;
   border-radius: 30px;
-  width: 40%;
-  border: 400px solid gainsboro;
+  width: 95%;
+  border: 1px solid gainsboro;
   font-size: 0.8rem;
+  display: inline-block;
 }
 
 .contact .contact__form form select {
   margin-top: 20px;
   margin-bottom: 12px;
-  padding: 10px;
+  padding: 10px 10px 10px 35px;
   border-radius: 30px;
-  width: 90%;
-  border: 400px solid gainsboro;
+  width: 98%;
+  border: 1px solid gainsboro;
   font-size: 0.8rem;
 }
 
 .contact .contact__form form textarea {
   font-size: 0.8rem;
-  border: 400px solid gainsboro;
+  border: 1px solid gainsboro;
   border-radius: 15px;
+  padding: 10px 10px 10px 35px;
 }
 
 .contact .contact__form form button {
@@ -224,8 +235,23 @@ header .navbar-nav .nav-logo a {
   font-size: 1rem;
   color: #b61984 !important;
   font-weight: 600;
-  border: 400px solid #b61984;
+  border: 1px solid #b61984;
   transform: scaleX(1);
+}
+
+.contact .contact__form .fontuser {
+  position: relative;
+}
+
+.contact .contact__form .fontuser i {
+  position: absolute;
+  left: 15px;
+  top: 33px;
+  color: #b61984;
+}
+
+.contact .contact__form .fontuser .text {
+  top: 15px;
 }
 
 .footer {

@@ -56,7 +56,15 @@ header {
                 padding: $mg-1 $mg-2;
                 @include styleText($fs-2,
                 $color-white-1,
-                $fw-2)
+                $fw-2);
+                transition: all 0.5s;
+                &:hover {
+                    background-color: $color-white-1 !important;
+                    @include styleText($fs-2,
+                    $color-pink-1,
+                    $fw-2);
+                    border: $w-4 solid $color-pink-1;
+                }
             }
             a {
                 margin: $mg-1;
